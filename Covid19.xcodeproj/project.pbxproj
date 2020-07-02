@@ -13,10 +13,11 @@
 		23B7E451249A42D1000DA28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B7E44F249A42D1000DA28C /* Main.storyboard */; };
 		23B7E453249A42D1000DA28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B7E452249A42D1000DA28C /* Assets.xcassets */; };
 		23B7E456249A42D1000DA28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B7E454249A42D1000DA28C /* LaunchScreen.storyboard */; };
+		23FF4D6F249B5570004646C5 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF4D6E249B5570004646C5 /* ApiServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23B7E446249A42D1000DA28C /* Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Programmatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B7E446249A42D1000DA28C /* Covid19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B7E449249A42D1000DA28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23B7E44B249A42D1000DA28C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		23B7E44D249A42D1000DA28C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		23B7E452249A42D1000DA28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B7E455249A42D1000DA28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23B7E457249A42D1000DA28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FF4D6E249B5570004646C5 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		23B7E447249A42D1000DA28C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23B7E446249A42D1000DA28C /* Programmatically.app */,
+				23B7E446249A42D1000DA28C /* Covid19.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				23B7E449249A42D1000DA28C /* AppDelegate.swift */,
 				23B7E44B249A42D1000DA28C /* SceneDelegate.swift */,
 				23B7E44D249A42D1000DA28C /* ViewController.swift */,
+				23FF4D6E249B5570004646C5 /* ApiServices.swift */,
 				23B7E44F249A42D1000DA28C /* Main.storyboard */,
 				23B7E452249A42D1000DA28C /* Assets.xcassets */,
 				23B7E454249A42D1000DA28C /* LaunchScreen.storyboard */,
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23B7E445249A42D1000DA28C /* Programmatically */ = {
+		23B7E445249A42D1000DA28C /* Covid19 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23B7E45A249A42D1000DA28C /* Build configuration list for PBXNativeTarget "Programmatically" */;
+			buildConfigurationList = 23B7E45A249A42D1000DA28C /* Build configuration list for PBXNativeTarget "Covid19" */;
 			buildPhases = (
 				23B7E442249A42D1000DA28C /* Sources */,
 				23B7E443249A42D1000DA28C /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Programmatically;
+			name = Covid19;
 			productName = Programmatically;
-			productReference = 23B7E446249A42D1000DA28C /* Programmatically.app */;
+			productReference = 23B7E446249A42D1000DA28C /* Covid19.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23B7E441249A42D1000DA28C /* Build configuration list for PBXProject "Programmatically" */;
+			buildConfigurationList = 23B7E441249A42D1000DA28C /* Build configuration list for PBXProject "Covid19" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23B7E445249A42D1000DA28C /* Programmatically */,
+				23B7E445249A42D1000DA28C /* Covid19 */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B7E44E249A42D1000DA28C /* ViewController.swift in Sources */,
+				23FF4D6F249B5570004646C5 /* ApiServices.swift in Sources */,
 				23B7E44A249A42D1000DA28C /* AppDelegate.swift in Sources */,
 				23B7E44C249A42D1000DA28C /* SceneDelegate.swift in Sources */,
 			);
@@ -291,10 +295,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.windy.Programmatically;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.windy.-Covid19";
+				PRODUCT_NAME = Covid19;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,17 +313,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.windy.Programmatically;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.windy.-Covid19";
+				PRODUCT_NAME = Covid19;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23B7E441249A42D1000DA28C /* Build configuration list for PBXProject "Programmatically" */ = {
+		23B7E441249A42D1000DA28C /* Build configuration list for PBXProject "Covid19" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23B7E458249A42D1000DA28C /* Debug */,
@@ -328,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23B7E45A249A42D1000DA28C /* Build configuration list for PBXNativeTarget "Programmatically" */ = {
+		23B7E45A249A42D1000DA28C /* Build configuration list for PBXNativeTarget "Covid19" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23B7E45B249A42D1000DA28C /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Programmatically.xcodeproj">
+      location = "self:/Users/windy/MyDocuments/LearningSwift/UIKit/Programmatically/Covid19.xcodeproj">
    </FileRef>
 </Workspace>
